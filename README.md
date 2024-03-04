@@ -17,9 +17,9 @@ To write a program to predict the marks scored by a student using the simple lin
 
 ## Program:
 ```
-#Program to implement the simple linear regression model for predicting the marks scored.
-#Developed by: BHUVANESH S R
-#RegisterNumber:  212223240017
+Program to implement the simple linear regression model for predicting the marks scored.
+Developed by: BHUVANESH S R
+RegisterNumber:  212223240017
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -60,7 +60,34 @@ print("RMSE : ",rmse)
 ```
 
 ## Output:
-![simple linear regression model for predicting the marks scored](sam.png)
+## df.head()
+![1](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/6ded435a-910a-4f7b-9956-19fca18fa635)
+
+## df.tail()
+![2](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/0b62a000-1029-4629-add8-2d5e68f0ee82)
+
+## Values of X:
+![3](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/f2faf9c5-7319-43dd-abf1-e900739fa167)
+
+## Values of Y:
+![4](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/baa26732-40d3-46f9-888a-eafe35d8112c)
+
+## Values of Y prediction:
+![5](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/6eab8d87-69f7-4ac6-a1c6-7d3f4abd8d20)
+
+## Values of Y test:
+![6](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/dcd9a9e4-c8a9-47b0-a40e-b5ba293489ed)
+
+## Training set graph:
+![7](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/11d63dd7-0e99-4804-b8b4-ec16d882ff95)
+
+## Test set graph:
+![8](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/9b138331-5501-48e8-bc43-baa054b8f0c7)
+
+## Value of MSE,MAE & RMSE:
+![9](https://github.com/Bhuvanesh-Suresh/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/145742661/af20fcb5-35d1-4413-b562-6d59ce16703f)
+
+
 
 
 ## Result:
